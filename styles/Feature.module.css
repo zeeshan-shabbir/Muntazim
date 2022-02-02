@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+.head{
+  margin-bottom: 10%;
+}
+.headH1{
+  color: #170B35;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+.headPara{
+  text-align: center;
+    color: #656565 !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card{
+  width: 353.333px !important;
+  margin-right: 30px;
+  text-align: center;
+}
+.card:hover>.line{
+  transform: scale(1);
+}
+.card:hover svg{
+  color: #d43396
+}
+.icon{
+  padding-top: 8px;
+  font-size: 45px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  line-height: 1;
+}
+.title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #150A33;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.dis{
+  letter-spacing: .01em;
+  color: #656565 !important;
+  margin-bottom: 50px;
+}
+.line{
+  width: 80%;
+  height: 4px;
+  margin:0 30px;
+  background: -webkit-gradient(left top,right top,color-stop(0%,#6541c1),color-stop(98%,#d43396),color-stop(100%,#d43396));
+  background: -webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background: linear-gradient(to right,#6541c1 0%,#d43396 98%,#d43396 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6541c1',endColorstr='#d43396',GradientType=1);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.slick-active>.line:hover,.slick-current>.line:hover{
+  background-color: red;
+  cursor: pointer;
+  transform: scale(1) !important;
+}
+.slick-current{
+  background-color: red !important;
+}

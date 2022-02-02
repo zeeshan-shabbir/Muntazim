@@ -1,0 +1,71 @@
+
+
+.how-app-work-section .title {
+  margin-bottom: 40px;
+}
+.how-app-work-section .how-app-work-content {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.how-app-work-section .how-app-work-content:before {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: url(../src/img/gradient-sep.png) no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+.how-app-work-section .pager-item {
+  display: block;
+}
+.how-app-work-section .single-how-app-work {
+  padding-left: 10px;
+}
+.how-app-work-section .single-how-app-work .icon-box, .how-app-work-section .single-how-app-work .text-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+.how-app-work-section .single-how-app-work .text-box {
+  padding-left: 40px;
+}
+.how-app-work-section .single-how-app-work .icon-box .inner {
+  width: 74px;
+  height: 74px;
+  background: #6541c1;
+  background: -webkit-gradient(left top,right top,color-stop(0%,#6541c1),color-stop(98%,#d43396),color-stop(100%,#d43396));
+  background: -webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background: linear-gradient(to right,#6541c1 0%,#d43396 98%,#d43396 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6541c1',endColorstr='#d43396',GradientType=1);
+  position: relative;
+  border-radius: 50%;
+  text-align: center;
+}
+.how-app-work-section .single-how-app-work .icon-box .inner:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 1;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.how-app-work-section .single-how-app-work .icon-box .inner i {
+  background: -webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background: linear-gradient(to right,#6541c1 0%,#d43396 98%,#d43396 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 74px;
+  font-size: 44px;
+  position: relative;
+}
+.how-app-work-section .single-how-app-work .icon-box .inner i:before {
+  font-size: 44px;
+  margin-left: 5px;
+}

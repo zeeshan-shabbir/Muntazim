@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #316BA008 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  cursor:default;
+}
+.slick-current path{
+  color: #d43396 !important;
+}
+.slick-current div{
+  /* background-color: grey; */
+  transform: scale(1) !important;
+  margin:0px !important;
+  width: 100%;
+}
+.slick-next {
+  top: 30% !important;
+  right: 0px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #E9E8E8 !important;
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50%;
+  font-size: 14px !important;
+  color: #d43396 !important;
+  cursor: pointer !important; 
+  z-index: 999 !important;
+}
+.slick-next svg,.slick-prev svg{
+  cursor: pointer !important; 
+}
+
+.slick-prev {
+  left: 5px !important;
+  top: 30% !important;
+  cursor: pointer !important; 
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #E9E8E8 !important;
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50%;
+  font-size: 14px !important;
+  color: #d43396 !important;
+  z-index: 999 !important;
+}
+
+
+
+
+
+
+
